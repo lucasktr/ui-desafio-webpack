@@ -1,0 +1,10 @@
+<article class="clearfix">
+	<h2>Edição de candidatos</h2>
+	<applicant-form [hidden]="success" *ngIf="applicant" [applicant]="applicant" (submitSuccess)="onSubmitSuccess($event)"></applicant-form>
+	<div *ngIf="!applicant" class="backend-loading">
+		<img src="../assets/images/loading.gif">
+	</div>
+	<div *ngIf="id_error">
+		<h2 class="no-id-msg">{{id_error}}</h2>
+	</div>
+</article>

@@ -1,0 +1,82 @@
+article h2 { 
+	text-align: center;
+}
+
+article {
+	margin-bottom: 21px;
+}
+
+table {
+	margin-top: 20px;
+	border-style: solid; 
+	border-width: 2px;
+	border-color: rgb(0,0,0);
+	border-radius: 3px;
+}
+
+th, td {
+	padding: 10px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn {
+	border-width: 0px;
+	margin: 0px;
+}
+
+@media (min-width: 768px) {
+	.btn {
+		padding: 19.5px 15px;
+	}
+}
+
+.table-responsive {
+	border: none;
+}
+
+#menu-navbar-collapsed ul:nth-child(odd) {
+	margin-bottom: 0px;
+}
+#menu-navbar-collapsed ul:nth-child(even) {
+	margin-top: 0px;
+}
+
+.success-msg {
+	text-align: center;
+	padding: 30px;
+}
+
+.submit-loading {
+	width: 20px;
+}
+
+.submit-error {
+	color: red;
+}
+
+.login-error {
+	color: red;
+	margin-left: 15px;
+}
+
+.login-form {
+	margin-top: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0,0,0);
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.remove-link {
+	margin-left: 20px;
+}
+
+.backend-loading img {
+	margin: 5em auto;
+	width: 20%;
+	display: block;
+}
